@@ -6,7 +6,7 @@ metadata:
     app: ecsdemo-nodejs
   namespace: default
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: ecsdemo-nodejs
@@ -27,3 +27,4 @@ spec:
         ports:
         - containerPort: 3000
           protocol: TCP
+
